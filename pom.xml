@@ -11,6 +11,7 @@
     <modules>
         <module>lock-app</module>
         <module>lock-involke</module>
+        <module>template-principle</module>
     </modules>
     <properties>
         <spring-boot-version>2.3.0.RELEASE</spring-boot-version>
