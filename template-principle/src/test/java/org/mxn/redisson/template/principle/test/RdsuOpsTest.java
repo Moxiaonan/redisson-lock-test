@@ -29,4 +29,14 @@ public class RdsuOpsTest {
             System.out.println(user.toString());
         }
     }
+
+    @Test
+    public void mapOps(){
+        rdsuOpsBiz.mapOps();
+    }
+
+    @Test
+    public void setOps(){
+        rdsuOpsBiz.setOps();
+    }
 }
