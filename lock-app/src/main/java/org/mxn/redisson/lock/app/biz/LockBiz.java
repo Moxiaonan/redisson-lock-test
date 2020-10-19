@@ -33,6 +33,10 @@ public class LockBiz {
         Integer incr;
         try {
             String red = ops.get();
+            if (red == null || red.length() == 0) {
+                ops.set(String.valueOf(0));
+                red = ops.get();
+            }
             incr = Integer.valueOf(red) + 1;
             ops.set(incr.toString());
         } finally {

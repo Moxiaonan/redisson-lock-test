@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>lock-app</module>
-        <module>lock-involke</module>
+        <module>lock-invoke</module>
         <module>template-principle</module>
     </modules>
     <properties>
