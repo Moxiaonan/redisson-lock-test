@@ -1,4 +1,4 @@
-package org.mxn.redisson.lock.involke;
+package org.mxn.redisson.lock.invoke;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
